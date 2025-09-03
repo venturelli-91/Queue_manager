@@ -1,8 +1,13 @@
 import React from "react";
 import { Button } from "flowbite-react";
 
-const newButton = () => {
-	return <Button>Button</Button>;
+interface ButtonProps {
+	name: string;
+	onClick?: () => void;
+}
+
+const NewButton = ({ name, onClick }: ButtonProps) => {
+	return <Button onClick={onClick}>{name}</Button>;
 };
 
-export default newButton;
+export default NewButton;
