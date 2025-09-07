@@ -4,7 +4,7 @@ import NewButton from "./CustomButton";
 const CustomForm = () => {
 	return (
 		<>
-			<form className="max-w-md mx-auto mt-[200px]">
+			<form className="max-w-md mx-auto mt-[70px]">
 				<div className="relative z-0 w-full mb-[80px] group">
 					<input
 						type="email"
@@ -58,7 +58,7 @@ const CustomForm = () => {
 						pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
 						name="floating_phone"
 						id="floating_phone"
-						className="block py-[10px] px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+						className="block py-10 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer"
 						placeholder=" "
 						required
 					/>
@@ -68,7 +68,7 @@ const CustomForm = () => {
 						Telefone (61) 9 XXXX-XXXX
 					</label>
 				</div>
-				<div className="flex justify-center w-full bg-gray-600 text-white p-[8px] rounded-lg">
+				<div className="flex justify-center w-full text-white rounded-lg">
 					<NewButton name="Submit" />
 				</div>
 			</form>
